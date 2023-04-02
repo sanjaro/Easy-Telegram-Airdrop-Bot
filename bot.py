@@ -44,12 +44,10 @@ MAX_USERS = int(os.environ["MAX_USERS"])
 MAX_REFS = int(os.environ["MAX_REFS"])
 CAPTCHA_ENABLED = os.environ["CAPTCHA_ENABLED"]
 
-TWITTER_LINKS = TWITTER_LINKS.split(",")
+
 TELEGRAM_LINKS = TELEGRAM_LINKS.split(",")
-DISCORD_LINKS = DISCORD_LINKS.split(",")
-TWITTER_LINKS = "\n".join(TWITTER_LINKS)
 TELEGRAM_LINKS = "\n".join(TELEGRAM_LINKS)
-DISCORD_LINKS = "\n".join(DISCORD_LINKS)
+
 STATUS_PATH = "./conversationbot/botconfig.p"
 if os.path.exists(STATUS_PATH):
     BOT_STATUS = {}
@@ -99,8 +97,6 @@ PROCEED_MESSAGE = f"""
 
 ✏️ Mandatory Tasks:
 - Join our Telegram group(s)
-- Follow our Twitter page(s)
-- Join our Discord server(s)
 
 NOTE: Users found cheating would be disqualified & banned immediately.
 
@@ -113,15 +109,6 @@ MAKE_SURE_TELEGRAM = f"""
 {TELEGRAM_LINKS}
 """
 
-FOLLOW_TWITTER_TEXT = f"""
-🔹 Follow our Twitter page(s)
-{TWITTER_LINKS}
-"""
-
-JOIN_DISCORD_TEXT = f'''
-🔹 Join our Discord server(s)
-{DISCORD_LINKS}
-'''
 
 SUBMIT_BEP20_TEXT = f"""
 Type in *your Wallet Address*
