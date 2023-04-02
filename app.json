@@ -82,7 +82,7 @@
       "required": true,
       "value": "YES"
     },
-    "TWITTER_LINKS": {
+//    "TWITTER_LINKS": {
       "description": "Twitter page links seperated by comma. Single Example: https://twitter.com/bitcoin. Multiple Example: https://twitter.com/bitcoin,https://twitter.com/ethereum",
       "required": true,
       "value": "https://twitter.com/bitcoin,https://twitter.com/ethereum"
@@ -92,7 +92,7 @@
       "required": true,
       "value": "https://t.me/multi,https://t.me/ple"
     },
-    "DISCORD_LINKS": {
+//    "DISCORD_LINKS": {
       "description": "Discord server links seperated by comma. Single Example: https://discord.gg/example. Multiple Example: https://discord.gg/example,https://discord.gg/ple",
       "required": true,
       "value": "https://discord.gg/example"
